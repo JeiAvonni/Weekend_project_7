@@ -1,0 +1,9 @@
+.background-container {
+    background-image: url("../images/Weather_app.jpg");
+    background-size: cover;
+    height: 750px;
+    background-position: 100%;
+    background-color: none;
+    border: 0px !important;
+}
+

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./Css/main.css">
+    <script src="./main.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Weather</title>
+</head>
+<style>
+    body {
+        background-image: url("./images/Weather_app.jpg");
+        background-size: 100% 100%;
+    }
+</style>
+<body>
+    <div class="background-container">
+        <div class="container d-flex justify-content-center bg-info mt-4">
+            <h1 style="background-color:none">Forecast</h1>
+        </div>
+        <br>
+        <br>
+        <div class="container d-flex justify-content-center mt-4">
+            <form action="" name="testData" id="test-data-form">
+                <label class="text-black" for="Location">Location</label>
+                <input type="text" name="Location" id="Location">
+                <button class="btn btn-info mx-3" type="submit" id="submit-button">What is it?</button>
+            </form>
+        </div>
+        <br>
+        <br>
+        <div class="container mt-5 mb-5">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Location</th>
+                        <th>Forcast</th>
+                        <th>Temperature</th>
+                        <th>Low</th>
+                        <th>High</th>
+                        <th>Humidity</th>
+                    </tr>
+                </thead>
+                <tbody class="weather-data">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
